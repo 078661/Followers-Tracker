@@ -9,7 +9,7 @@ import os
 
 # --- CONFIG ---
 st.set_page_config("Real-time MoS Social Media Tracker", layout="wide")
-TWITTER_BEARER_TOKEN = st.secrets["TWITTER_BEARER_TOKEN"]
+TWITTER_BEARER_TOKEN = st.secrets["AAAAAAAAAAAAAAAAAAAAAPzm1AEAAAAATFOeYdSRrya25FZS7ueE%2BlefzvE%3DaKbktdfvuAM2zjnw61DNdL1TsI2Oq3xS5NiVnfBSa6Ezf355tu"]
 
 # --- LOAD MINISTER DATA ---
 df_ministers = pd.read_excel("Mos List.xlsx")
