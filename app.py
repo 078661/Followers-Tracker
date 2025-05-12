@@ -19,7 +19,7 @@ df_ministers.columns = [col.strip() for col in df_ministers.columns]
 def get_twitter_followers(handle):
     try:
         url = f"https://api.twitter.com/2/users/by/username/{handle}?user.fields=public_metrics"
-        headers = {"Authorization": f"Bearer {TWITTER_BEARER_TOKEN}"}
+        headers = {"Authorization": f"Bearer {AAAAAAAAAAAAAAAAAAAAAPzm1AEAAAAATFOeYdSRrya25FZS7ueE%2BlefzvE%3DaKbktdfvuAM2zjnw61DNdL1TsI2Oq3xS5NiVnfBSa6Ezf355tu}"}
         response = requests.get(url, headers=headers)
         data = response.json()
         return data["data"]["public_metrics"]["followers_count"]
